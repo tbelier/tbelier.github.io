@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Responsive portfolio website - Bedimcode</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">Portfolio</a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li>
+                     <a href="#home" class="nav__link active-link">Home</a>
+                  </li>
+
+                  <li>
+                     <a href="#work" class="nav__link">Work</a>
+                  </li>
+
+                  <li>
+                     <a href="#info" class="nav__link">My Info</a>
+                  </li>
+
+                  <li>
+                     <a href="#services" class="nav__link">Services</a>
+                  </li>
+
+                  <li>
+                     <a href="#contact" class="nav__link">Contact Me</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+               </div>
+
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </div>
+            
+         </nav>
+      </header>
+      
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <img src="assets/img/home-perfil.png" alt="image" class="home__img">
+
+               <div class="home__data">
+                  <h1 class="home__name">BELIER <br> Titouan</h1>
+                  <h3 class="home__profession">Robotics Phd Students</h3>
+
+               </div>
+               <a href="#work" class="home__scroll">
+                  <div class="home__scroll-box">
+                     <i class="ri-arrow-down-line"></i>
+                  </div>
+
+                  <span class="home__scroll-text">Recent works</span>
+               </a>
+            </div>
+         </section>
+
+         <!--==================== WORKS ====================-->
+         <section class="work section" id="work">
+            <h2 class="section__title">RECENT WORKS</h2>
+            <div class="work__container container grid">
+               <article class="work__card">
+                  <a href="#" target="_blank" class="work__link">
+                     <h2 class="work__title">ROV Docking</h2>
+                     <p class="work__description">
+                        Creation of an electrical, mechanical and computational 
+                        architecture to be able to dock a ROV. USBL and camera were used.
+                     </p>
+
+                     <img src="assets/img/work-1.jpg" alt="image" class="work__img">
+
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+
+               <article class="work__card">
+                  <a href="#" target="_blank" class="work__link">
+                     <h2 class="work__title">Autonomous ground vehicle complete Labyrinth</h2>
+                     <p class="work__description">
+                        By using stereo cameras and ultrasound sensors, the ground vehicle completed 
+                        the labyrinth autonomously.
+                     </p>
+
+                     <img src="assets/img/work-2.jpg" alt="image" class="work__img">
+
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+
+               <article class="work__card">
+                  <a href="#" target="_blank" class="work__link">
+                     <h2 class="work__title">AI music style recognizer</h2>
+                     <p class="work__description">
+                        This embedded AI can recognize music style of any music played around it.
+                     </p>
+
+                     <img src="assets/img/work-3.jpg" alt="image" class="work__img">
+
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+
+               <article class="work__card">
+                  <a href="#" target="_blank" class="work__link">
+                     <h2 class="work__title">NAO football (soccer) player</h2>
+                     <p class="work__description">
+                        NAO control was developed to make it able to shoot the ball in the goal autonomously.
+                     </p>
+
+                     <img src="assets/img/work-3.jpg" alt="image" class="work__img">
+
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+
+               <article class="work__card">
+                  <a href="#" target="_blank" class="work__link">
+                     <h2 class="work__title">Karstex</h2>
+                     <p class="work__description">
+                        Development of the mechanical, electrical and computational architecture of 
+                        an AUV to map an underwater Karst (limestone cave).
+                     </p>
+
+                     <img src="assets/img/work-4.jpg" alt="image" class="work__img">
+
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== INFO ====================-->
+         <section class="info section" id="info">
+            <h2 class="section__title">MY INFO</h2>
+
+            <div class="info__container container grid">
+
+               <div class="about grid">
+                  <div class="about__content">
+                     <h3 class="info__tile">About</h3>
+                     <p class="about__description">
+                        Currently doing a Robotics Phd in Lab-STICC, I am curious autonomous technologies and submarine environnement.
+                        I have a reasearch Master of autonomous systems and a French engineering diploma from ENSTA Bretagne (National School of Sciences and Applied Technologies)
+                     </p>
+
+                     <a href="assets/pdf/Tailor-Cv.pdf" download="" target="_blank"class="button about__button">Download CV</a>
+                     
+                  </div>
+                  <img src="assets/img/info-perfil.png" alt="image" class="about__img">
+               </div>
+
+               <div class="experience">
+                  <h3 class="info__title">Experience</h3>
+                  
+                  <div class="experience__content grid">
+                     <div class="experience__data grid">
+                        <h2 class="experience__company">Thales Defense Mission Systems</h2>
+
+                        <div>
+                           <h3 class="experience__profession">Electronic Warfare Radar's Data Analysis Software Alternship developer</h3>
+                           <span class="experience__date">09/23 - 09-24</span>
+                           <p class="experience__description">
+                              I worked on developing a software for Thales Defense Mission Systems that analyzes radar data to detect Electromagnetical Signature of War Radar. 
+                              I used Python and the ELK suite to visualize and process the data.
+                           </p>
+                        </div>
+                     </div> 
+                     
+                     <div class="experience__data grid">
+                        <h2 class="experience__company">Escula Tecnica Superior de Malaga, Spain</h2>
+
+                        <div>
+                           <h3 class="experience__profession">Multisensors calibration Internship</h3>
+                           <span class="experience__date">05/23 - 08/23</span>
+                           <p class="experience__description">
+                              I have calibrated multiple sensors to merge LiDAR, stereo cameras and thermal cameras datas with ROS2. I also developed a mechanical systems with DAO software (SolidWorks).
+                              the research I was working with was focused on creating Robotics systems to help rescuer in harsh conditions like a war theatre or after a disaster.
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="experience__data grid">
+                        <h2 class="experience__company">Dalhousie, University of Halifax, NS, Canada</h2>
+
+                        <div>
+                           <h3 class="experience__profession">Substitution semester abroad</h3>
+                           <span class="experience__date">01/23 - 05/23</span>
+                           <p class="experience__description">
+                              During a semester, I have attended Dalhousie Informatics courses to get an English experience abroad. 
+                              I have studied :
+                              - Virtual and Augmented Reality with Unity,
+                              - Cybersecurity Concepts and Wireshark experiments,
+                              - Data processing with Matlab,
+                              - Astrophysics and Geopolitics to broaden the spectrum of my skills.
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="experience__data grid">
+                        <h2 class="experience__company">Angers University, Angers, France</h2>
+
+                        <div>
+                           <h3 class="experience__profession">Research Master of autonomous systems</h3>
+                           <span class="experience__date">09/21 - 09/24</span>
+                           <p class="experience__description">
+                              I have worked on autonomous subjects, reasearch topics, control and automation.
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="experience__data grid">
+                        <h2 class="experience__company">ENSTA Bretagne (National School of Sciences and Applied Technologies), Brest, France</h2>
+
+                        <div>
+                           <h3 class="experience__profession">Research Master of autonomous systems</h3>
+                           <span class="experience__date">09/21 - 09/24</span>
+                           <p class="experience__description">
+                              My main diploma to access to my Phd. The year was focused on generalist topics like informatics, mechanics and engineering sciences.
+                              Then, I specialized myself in autonomous robotics and attended multiple courses like :
+                              - Robotics,
+                              - Computer vision and image treatment,
+                              - Machine learning,
+                              - Deep learning,
+                              - Control, Navigation, Inertial of an autonomous Robot,
+                              - Kalman Filter,
+                              - Embedded systems,
+                              - Network architecture,
+                              - Agile Methods,
+                              - Autonomous Underwater, Surface, Ground and Aerial vehicles.
+                           </p>
+                        </div>
+                     </div>
+
+
+                  </div>
+               </div>
+
+               <div class="skills">
+                  <h3 class="info__title">Skills</h3>
+
+                  <div class="skills__content grid">
+                     <div class="skills__box">
+                        <img src="assets/img/info-python.svg" alt="image" class="skills__img">
+                        <span class="skills__name">Python</span>
+                     </div>
+
+                     <div class="skills__box">
+                        <img src="assets/img/info-c++.svg" alt="image" class="skills__img">
+                        <span class="skills__name">C++</span>
+                     </div>
+
+                     <div class="skills__box">
+                        <img src="assets/img/info-cSharp.svg" alt="image" class="skills__img">
+                        <span class="skills__name">C#</span>
+                     </div>
+
+                     <div class="skills__box">
+                        <img src="assets/img/info-matlab.svg" alt="image" class="skills__img">
+                        <span class="skills__name">Matlab</span>
+                     </div>
+
+                     <div class="skills__box">
+                        <img src="assets/img/info-github.svg" alt="image" class="skills__img">
+                        <span class="skills__name">GitHub</span>
+                     </div>
+
+                     <div class="skills__box">
+                        <img src="assets/img/info-html.svg" alt="image" class="skills__img">
+                        <span class="skills__name">HTML</span>
+                     </div>
+
+                     <div class="skills__box">
+                        <img src="assets/img/info-css.svg" alt="image" class="skills__img">
+                        <span class="skills__name">CSS</span>
+                     </div>
+
+                     <div class="skills__box">
+                        <img src="assets/img/info-javascript.svg" alt="image" class="skills__img">
+                        <span class="skills__name">JavaScript</span>
+                     </div>
+
+                  </div>
+
+               </div>
+
+
+
+            </div>
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section" id="services">
+
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <h2 class="section__title">CONTACT ME</h2>
+
+
+
+
+            <div class="contact__container container grid">
+               <form action="" class="contact__form grid" id="contact-form">
+                  <div class="contact__group grid">
+                     <input type="text" name ="user_name" placeholder="Names" required class="contact__input">
+                     <input type="email" name ="user_email" placeholder="Email" required class="contact__input">
+                  </div>
+
+                  <textarea name ="user_message" placeholder="Message" required class="contact__input contact__area"></textarea>
+                  <button type="submit" class="button contact__button">Send Message</button>
+                  
+                  <p class="contact__message" id="contact-message"></p>
+               </form>
+
+               <div class="contact__social grid">
+                  <a href="https://www.youtube.com/@RobotsPHD" target="_blank" class="contact__social-link">
+                     <i class="ri-youtube-line"></i>
+                     <span>My youtube</span>
+                  </a>
+
+                  <a href="https://www.instagram.com/ensta_bretagne/" target="_blank" class="contact__social-link">
+                     <i class="ri-instagram-line"></i>
+                     <span>ENSTA Instagram</span>
+                  </a>
+
+                  <a href="https://www.linkedin.com/in/titouanbelier/" target="_blank" class="contact__social-link">
+                     <i class="ri-linkedin-line"></i>
+                     <span>My LinkedIn</span>
+                  </a>
+
+
+               </div>
+
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <ul class="footer__links">
+               <li>
+                  <a href="#home" class="footer__link">Home</a>
+               </li>
+
+               <li>
+                  <a href="#work" class="footer__link">Work</a>
+               </li>
+
+               <li>
+                  <a href="#info" class="footer__link">Info</a>
+               </li>
+            </ul>
+
+            <span class="footer__copy">
+               &#169; All Rights Reserved By Bedimcode
+            </span>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== EMAIL JS ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
